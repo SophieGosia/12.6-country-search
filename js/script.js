@@ -40,7 +40,7 @@ function showErrorMessage() {
 }
 
 function showCountriesList(resp) {
-  let $wrapper = $('<div>');
+  const $wrapper = $('<div>');
   $countriesList.empty();
 
   resp.forEach(function(item) {
