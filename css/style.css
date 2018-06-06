@@ -1,128 +1,32 @@
 @import url("https://fonts.googleapis.com/css?family=Amaranth|Open+Sans");
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-.container {
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+.container { max-width: 1200px; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
 
-.hero {
-  background-color: beige;
-  background-image: url("https://images.unsplash.com/photo-1478809846154-d4ca173df3e0?ixlib=rb-0.3.5&s=a5a518df7e4887e2af05a974dd4ded83&auto=format&fit=crop&w=1633&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 0;
-  display: flex;
-  height: 100vh;
-}
+.hero { background-color: beige; background-image: url("https://images.unsplash.com/photo-1478809846154-d4ca173df3e0?ixlib=rb-0.3.5&s=a5a518df7e4887e2af05a974dd4ded83&auto=format&fit=crop&w=1633&q=80"); background-repeat: no-repeat; background-size: cover; background-position: 50% 0; display: -ms-flexbox; display: flex; height: 100vh; }
 
-.hero .main-header {
-  font-family: "Amaranth", sans-serif;
-  color: #342933;
-  font-size: 50px;
-  font-weight: 600;
-  text-decoration: underline;
-}
+.hero .main-header { font-family: "Amaranth", sans-serif; color: #342933; font-size: 50px; font-weight: 600; text-decoration: underline; }
 
-.hero .sub-header {
-  margin-top: 0;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #342933;
-  font-size: 24px;
-}
+.hero .sub-header { margin-top: 0; font-family: "Open Sans", sans-serif; font-weight: 400; color: #342933; font-size: 24px; }
 
-.hero .main-input {
-  margin-top: 40px;
-  border: 2px solid #342933;
-  border-radius: 15px;
-  height: 40px;
-  width: 300px;
-  text-align: center;
-  font-size: 20px;
-}
+.hero .main-input { margin-top: 40px; border: 2px solid #342933; border-radius: 15px; height: 40px; width: 300px; text-align: center; font-size: 20px; }
 
-.hero .main-btn {
-  width: 200px;
-  padding: 6px;
-  margin: 40px;
-  border-radius: 15px;
-  border: 2px solid #342933;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  background-color: #342933;
-  color: #fff;
-}
+.hero .main-btn { width: 200px; padding: 6px; margin: 40px; border-radius: 15px; border: 2px solid #342933; font-family: "Open Sans", sans-serif; font-size: 18px; font-weight: 300; background-color: #342933; color: #fff; }
 
-.hero .main-btn:active, .hero .main-btn:hover {
-  background-color: #9D8274;
-  color: #342933;
-}
+.hero .main-btn:active, .hero .main-btn:hover { background-color: #9D8274; color: #342933; }
 
-.hero .main-btn:active {
-  box-shadow: 2px 3px #342933;
-  transform: translateY(4px);
-}
+.hero .main-btn:active { box-shadow: 2px 3px #342933; transform: translateY(4px); }
 
-.list {
-  width: 50%;
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 10px;
-  background-color: beige;
-  border: 1px solid #9D8274;
-  display: flex;
-}
+.list { width: 50%; max-width: 1200px; margin: 50px auto; padding: 10px; background-color: beige; border: 1px solid #9D8274; display: -ms-flexbox; display: flex; }
 
-.list .list-header {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-family: "Amaranth", sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-}
+.list .list-header { text-align: center; margin-top: 30px; margin-bottom: 0; font-family: "Amaranth", sans-serif; font-size: 30px; font-weight: 600; }
 
-.list .list-countries {
-  text-align: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 50px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-}
+.list .list-countries { text-align: center; list-style-type: none; padding: 0; margin: 50px; font-family: "Open Sans", sans-serif; font-size: 16px; }
 
-.list .flag {
-  width: 20%;
-  margin-top: 30px;
-}
+.list .flag { width: 20%; margin-top: 30px; }
 
-.list h3 {
-  font-family: "Amaranth", sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  margin: 20px;
-}
+.list h3 { font-family: "Amaranth", sans-serif; font-size: 25px; font-weight: 600; margin: 20px; }
 
-footer {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-size: 12px;
-  width: 100%;
-  margin-top: 20px;
-  padding: 15px 0;
-  color: #fff;
-  background-color: #9D8274;
-}
+footer { font-family: "Open Sans", sans-serif; text-align: center; font-size: 12px; width: 100%; margin-top: 20px; padding: 15px 0; color: #fff; background-color: #9D8274; }
 
-footer p {
-  margin: 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+footer p { margin: 0; }
