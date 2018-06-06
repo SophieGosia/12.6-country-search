@@ -27,15 +27,16 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.24.4",
     "eslint": "^4.19.1",
     "globstar": "^1.0.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.9.0",
     "npm-run-all": "^4.1.2",
     "nu-html-checker": "^0.1.0",
     "onchange": "^4.0.0"
   },
   "dependencies": {
+    "hoek": "^5.0.3",
     "rimraf": "^2.6.2"
   },
   "repository": {

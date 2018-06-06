@@ -5,26 +5,36 @@
   <meta charset="UTF-8">
   <title>Country search engine</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div id="container" class="container text-center">
-    <h1>Country search engine</h1>
-    <input id="country-name" type="text" />
-    <button id="search">Search a country</button>
-    <h2>List of countries</h2>
-    <ul id="countries">
+  <header class="hero">
+    <div class="container" id="container">
+      <h1 class="main-header">What on Earth?</h1>
+      <h2 class="sub-header">Simple country search engine</h2>
+      <input class="main-input" id="country-name" type="text" />
+      <button class="main-btn" id="search">Search a country</button>
+    </div>
+  </header>
+
+  <div class="container list" id='list'>
+    <h2 class="list-header">List of countries</h2>
+    <ul class="list-countries" id="countries">
       <li>No data</li>
     </ul>
   </div>
 
+  <footer class="footer">
+    <div class="container-fluid">
+      <p>Copyright Sophie 2018</p>
+    </div>
+  </footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
