@@ -1,6 +1,6 @@
 12.6 - Country search engine
 
-https://codepen.io/sophie_gosia/pen/
+https://codepen.io/sophie_gosia/pen/OEXwQV
 
 How to run this project: 
 
