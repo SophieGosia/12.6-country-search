@@ -1,10 +1,20 @@
-12.6 - Country search engine
+<p align="center" style="font-size:20px" ><strong>Country search engine</strong></p>
 
-https://codepen.io/sophie_gosia/pen/OEXwQV
+<p align="center">
+  <a href="https://ibb.co/diQpXe"><img src="https://preview.ibb.co/ePiMdK/searchcountry.jpg" alt="searchcountry" border="0" width="400"></a>
+</p>
 
-How to run this project: 
+<p align="center">
+  Check it out on <a href="https://codepen.io/sophie_gosia/pen/OEXwQV
+">Codepen</a>
+</p>
 
-    $ npm run init-project 
-    $ npm run build
-    $ npm run watch
-    $ npm run test 
+
+<p>How to run this project:</p>
+
+<ul>
+    <li>$ npm run init-project</li> 
+    <li>$ npm run build</li>
+    <li>$ npm run watch</li>
+    <li>$ npm run test</li> 
+</ul>
